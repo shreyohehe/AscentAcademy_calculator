@@ -1,2 +1,2 @@
 # calculator
-This is webpage about a event to be held by a organization. Details about the event are mentioned in this webpage. This project is done by me as a intern in @AscentAcademy. 
+This is a webpage calculator. Basic calculations like division,multiplications,addition and subtraction can be performed in this calculator. This project is done by me as a intern in @AscentAcademy. 
