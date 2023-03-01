@@ -21,16 +21,26 @@
   padding: 20px;
   border-radius: 7px;
 }
+form .display{
+  display: flex;
+  justify-content: flex-end;
+  box-shadow: none;
+ 
+  
+}
 input[type=text]{
   width: 364px;
   height: 73px;
   border-radius: 10px;
   margin-top: 4px;
+  text-align: right;
+  flex:1;
+  font-size: 45px;
+  background-color:rgb(220, 219, 219);
 
 }
-.btn{
-  padding-left: 45px;
-}
+
+
 input[type=button]{
   border: 0;
   outline: 0;
