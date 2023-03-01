@@ -59,7 +59,7 @@ input[type=button]{
   cursor: pointer;
   font-size: 17px;
   box-shadow: 12px 10px 15px rgba(250, 247, 247, 0.15);
-  /* background: transparent; */
+  
 }
 .calcon{
   margin-top: 23px;
