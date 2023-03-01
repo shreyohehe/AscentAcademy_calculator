@@ -19,4 +19,28 @@
 .cal{
   background-color: rgb(48, 48, 48);
   padding: 20px;
+  border-radius: 5px;
+}
+input[type=text]{
+  width: 364px;
+  height: 73px;
+}
+.btn{
+  padding-left: 45px;
+}
+input[type=button]{
+  border: 0;
+  outline: 0;
+  background-color: rgb(72, 72, 72);
+  color: white;
+  border-radius: 30px;
+   padding: 5px;
+  width: 60px;
+  height: 60px;
+  margin: 13px;
+
+
+}
+.calcon{
+  margin-top: 25px;
 }
