@@ -17,13 +17,16 @@
     justify-content: center;
 } 
 .cal{
-  background-color: rgb(48, 48, 48);
+  background-color: rgb(47, 46, 46);
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 7px;
 }
 input[type=text]{
   width: 364px;
   height: 73px;
+  border-radius: 10px;
+  margin-top: 4px;
+
 }
 .btn{
   padding-left: 45px;
@@ -31,16 +34,18 @@ input[type=text]{
 input[type=button]{
   border: 0;
   outline: 0;
-  background-color: rgb(72, 72, 72);
   color: white;
+  border: 0.5px solid rgb(63, 62, 62);
   border-radius: 30px;
    padding: 5px;
   width: 60px;
   height: 60px;
   margin: 13px;
-
-
+  cursor: pointer;
+  font-size: 17px;
+  box-shadow: 12px 10px 15px rgba(250, 247, 247, 0.1);
+  background: transparent;
 }
 .calcon{
-  margin-top: 25px;
+  margin-top: 23px;
 }
