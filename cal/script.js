@@ -3,7 +3,7 @@ let string = "";
 const buttons = document.getElementsByClassName("btn");
 for (let i = 0; i < buttons.length; i++) {
     buttons[i].onclick = function () {
-        console.log(buttons[i].value);
+       
         if(buttons[i].value == "="){
             string=eval(string);
             text.value = string;
@@ -24,7 +24,7 @@ for (let i = 0; i < buttons.length; i++) {
         }
         else {
 
-            string += this.value;
+            string += buttons[i].value;
             text.value= string;
         }
 
