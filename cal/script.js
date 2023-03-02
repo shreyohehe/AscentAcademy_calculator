@@ -9,7 +9,7 @@ for (let i = 0; i < buttons.length; i++) {
             text.value = string;
         }
         else if(buttons[i].value == "DE"){
-            string= string.slice(0,-1);
+            string= (text.value).slice(0,-1);
             text.value = string;
         }
         else if(buttons[i].value == "MOD"){
